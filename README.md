@@ -1,8 +1,10 @@
-# MambaRaw: Selective State Space Modeling for Efficient 4K RAW Image Reconstruction(ECCV 2026)
+# MambaRaw: Selective State Space Modeling for Efficient 4K RAW Image Reconstruction (ECCV 2026)
 
 Official implementation of the ECCV 2026 paper:
 
 > **MambaRaw: Selective State Space Modeling for Efficient 4K RAW Image Reconstruction**
+>
+> Peize Li*, Fanhu Zeng*, Tongda Xu, Xinjie Zhang, Xingtong Ge, Haotian Zhang, Xingguo Xu, Yan Wang
 
 ## Overview
 
