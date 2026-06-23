@@ -47,7 +47,7 @@ Install the selective-scan dependencies following [MambaIC](https://github.com/A
 Train one checkpoint for each `lambda` in `{0.02, 0.24, 0.8, 1.5, 2.0, 5.0, 10.0, 20.0}`.
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python train_raw.py \
+CUDA_VISIBLE_DEVICES=0 python train.py \
   --model mambaraw \
   --dataset /path/to/dataset \
   --train train \
