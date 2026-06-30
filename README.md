@@ -132,6 +132,17 @@ python benchmark_4k_speed.py \
   --csv results/benchmark_real.csv
 ```
 
+## Citation
+
+```bibtex
+@article{li2026mambaraw,
+  title={MambaRaw: Selective State Space Modeling for Efficient 4K Raw Image Reconstruction},
+  author={Li, Peize and Zeng, Fanhu and Xu, Tongda and Xu, Xingguo and Zhang, Xinjie and Ge, Xingtong and Zhang, Haotian and Wang, Yan},
+  journal={arXiv preprint arXiv:2606.24479},
+  year={2026}
+}
+```
+
 ## Acknowledgement
 
 This project is built upon [R2LCM](https://github.com/wyf0912/R2LCM), [MambaIC](https://github.com/AuroraZengfh/MambaIC), [CompressAI](https://github.com/InterDigitalInc/CompressAI), and [VMamba](https://github.com/MzeroMiko/VMamba). We thank the authors for releasing their code.
