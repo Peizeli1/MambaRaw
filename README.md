@@ -6,6 +6,9 @@ Official implementation of the ECCV 2026 paper:
 >
 > Peize Li*, Fanhu Zeng*, Tongda Xu, Xinjie Zhang, Xingtong Ge, Haotian Zhang, Xingguo Xu, Yan Wang
 
+[![arXiv](https://img.shields.io/badge/Arxiv-2606.24479-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2606.24479)
+[![ECCV](https://img.shields.io/badge/ECCV-Paper-blue.svg?logo=cvf)](https://link.springer.com/chapter/10.1007/978-3-032-36984-0_4)
+
 ## Overview
 
 MambaRaw is a JPEG-guided metadata-based RAW reconstruction framework for efficient high-resolution inference. Its core contribution is a **spatial-energy coupled context model** for entropy-parameter estimation. The method introduces:
@@ -36,7 +39,7 @@ git checkout 429c7da21e1060ea901652524a23d7697acf3fb4
 pip install -e .
 ```
 
-Install the selective-scan dependencies following [MambaIC](https://github.com/AuroraZengfh/MambaIC) commit `160c43f51cfd22f91b9782cee55b545fa8939324`.
+Install the selective-scan dependencies following [MambaIC](https://github.com/AuroraZengfh/MambaIC).
 
 ## Dataset
 
@@ -135,10 +138,11 @@ python benchmark_4k_speed.py \
 ## Citation
 
 ```bibtex
-@article{li2026mambaraw,
+@inproceedings{li2026mambaraw,
   title={MambaRaw: Selective State Space Modeling for Efficient 4K Raw Image Reconstruction},
   author={Li, Peize and Zeng, Fanhu and Xu, Tongda and Xu, Xingguo and Zhang, Xinjie and Ge, Xingtong and Zhang, Haotian and Wang, Yan},
-  journal={arXiv preprint arXiv:2606.24479},
+  booktitle={European Conference on Computer Vision},
+  pages={62--80},
   year={2026}
 }
 ```
